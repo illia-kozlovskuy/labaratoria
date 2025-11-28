@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+img {
+    display: block;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #e5e9f2;
+    display: flex;
+    height: 67px;
+    align-items: center;
+}
+
+.header-container {
+    margin: 0 auto;
+    width: 1110px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+nav {
+    font-size: 14px;
+    line-height: 1px;
+    margin-top: -4px;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #18191f;
+    margin-right: 32px;
+    text-decoration: none;
+}
+
+.nav-link:last-child {
+    margin-right: 0px;
+}
+
+.nav-link:hover {
+    color: #8c30f5;
+}
+
+.appstore {
+    margin-left: auto;
+    display: flex;
+}
+
+.appstore-link {
+    margin: 5px 0 5px 12px;
+}
+
+.appstore-link:hover {
+    opacity: 0.5;
+}
+
+.appstore-link:first-child {
+    margin-left: 0;
+}
+
+/* MAIN */
+
+.main-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.main-content {
+    width: 540px;
+    font-size: 18px;
+    color: #18191f;
+}
+
+.main-header {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 1.36;
+}
+
+.main-text {
+    margin-bottom: 32px;
+}
+
+.main-text p {
+    margin-bottom: 15px;
+    line-height: 1.78;
+}
+
+.button {
+    background-color: #8c30f5;
+    color: white;
+    text-decoration: none;
+
+    padding-left: 35px;
+    padding-right: 35px;
+
+    display: inline-block;
+    height: 62px;
+    line-height: 62px;
+    font-size: 20px;
+    font-weight: bold;
+
+    border-radius: 8px;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+/* FOOTER */
+
+footer {
+    height: 72px;
+    background-color: #0b0d17;
+    display: flex;
+    align-items: center;
+    color: #d9d8e1;
+}
+
+.footer-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .footer-copyright p {
+    font-size: 14px;
+} */
+
+.footer-socials {
+    display: flex;
+}
+
+.footer-social-link {
+    margin-left: 16px;
+}
+
+.footer-social-link:hover {
+    opacity: 0.5;
+}

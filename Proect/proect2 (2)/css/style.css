@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+img {
+  display: block;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px, solid, #e5e9f2;
+  height: 67px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .header-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+header .header-container .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+header .header-container nav {
+  font-size: 14px;
+  line-height: 1px;
+  margin-top: -4px;
+}
+header .header-container nav .nav-link {
+  font-weight: bold;
+  color: #18191f;
+  margin-right: 32px;
+  text-decoration: none;
+}
+header .header-container nav .nav-link:last-child {
+  margin-right: 0px;
+}
+header .header-container nav .nav-link:hover {
+  color: #8c30f5;
+}
+header .header-container .appstore {
+  margin-left: auto;
+  display: flex;
+}
+header .header-container .appstore .appstore-link {
+  margin: 5px 0 5px 12px;
+}
+header .header-container .appstore .appstore-link:hover {
+  opacity: 0.5;
+}
+header .header-container .appstore .appstore-link:first-child {
+  margin-left: 0;
+}
+
+.main-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.main-container .main-content {
+  width: 520px;
+  font-size: 18px;
+  color: #18191f;
+}
+.main-container .main-content .main-header {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 1.36;
+}
+.main-container .main-content .main-text {
+  margin-bottom: 32px;
+}
+.main-container .main-content .main-text p {
+  margin-bottom: 15px;
+  line-height: 1.78;
+}
+.main-container .main-content .button {
+  background-color: #8c30f5;
+  color: white;
+  text-decoration: none;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: inline-block;
+  height: 62px;
+  line-height: 62px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.main-container .main-content .button:hover {
+  opacity: 0.8;
+}
+
+footer {
+  height: 72px;
+  background-color: #0b0d17;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #d9d8e1;
+}
+footer .footer-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-container .footer-socials {
+  display: flex;
+}
+footer .footer-container .footer-socials .footer-socials-link {
+  margin-left: 16px;
+}
+footer .footer-container .footer-socials .footer-socials-link:hover {
+  opacity: 0.5;
+}/*# sourceMappingURL=style.css.map */

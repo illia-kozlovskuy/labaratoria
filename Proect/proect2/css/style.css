@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f6f6f6;
+    text-align: center;
+    font-family: Tahoma;
+}
+
+
+footer {
+    background-color: #2b4f6f;
+    color: white;
+    padding: 70px;
+}
+
+.footer-container {
+    padding: 50px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+    justify-content: space-around;
+    display: flex;
+}
+
+.footer-container ul {
+    list-style-type: none;
+}
+
+.footer-container a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container a img {
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+.footer-container a img:hover {
+    opacity: 1;
+}

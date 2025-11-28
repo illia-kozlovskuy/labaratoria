@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+ul a {
+    display: block;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+
+    /* border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
+}
+.header h1{
+    color: #007BFF;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+    width: 150px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.weather-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.day {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 20%;
+    flex: 1;
+    margin-left: 10px;
+    transition: all 0.4s;
+
+}
+
+.forecast-item:first-child{
+    margin-left: 0;
+}
+
+.day img {
+
+    width: 50px;
+    margin: 10px 0;
+}
+
+.day:hover {
+
+    cursor: pointer;
+    background-color: lightblue;
+    transform: translateY(-20px);
+    
+
+}
+.grey{
+    color: gray;
+}
+
+.hourly-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.hourly-container h2{
+    color: #007BFF;
+}
+
+.hourly-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.hourly-container th,
+.hourly-container td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.hourly-container th {
+    background-color: #f8f8f8;
+}
